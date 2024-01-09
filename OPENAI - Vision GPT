@@ -4,7 +4,7 @@ import time
 import base64
 import requests
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='Your Open AI API Key')
 
 class CameraApp:
     def __init__(self, camera_index, api_key):
